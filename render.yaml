@@ -1,0 +1,13 @@
+# Optional Render "Blueprint". You can also create the web service by hand (see README).
+services:
+  - type: web
+    name: fighter-relay
+    runtime: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: ALLOWED_ORIGINS
+        sync: false   # e.g. https://your-game.vercel.app (optional)
