@@ -1,6 +1,6 @@
 // Put your Render backend URL here (wss:// for https). No trailing slash, no /ws.
 // Example: window.GAME_SERVER = 'wss://fighter-relay.onrender.com';
-window.GAME_SERVER = 'wss://YOUR-APP-NAME.onrender.com';
+window.GAME_SERVER = 'wss://fighteronline12.onrender.com';
 
 // Wake a sleeping free-tier Render server as soon as the page opens.
 try {
