@@ -9,4 +9,4 @@ try {
   }
 } catch (e) {}
 
-window.EXTRA_DELAY = 2;
+window.EXTRA_DELAY = 1;
