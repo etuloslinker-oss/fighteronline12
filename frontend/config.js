@@ -8,3 +8,5 @@ try {
     fetch(window.GAME_SERVER.replace(/^ws/, 'http') + '/healthz', { mode: 'no-cors' }).catch(function () {});
   }
 } catch (e) {}
+
+window.EXTRA_DELAY = 4;
